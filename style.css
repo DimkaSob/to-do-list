@@ -72,10 +72,17 @@ ul {
 
 li {
   margin-bottom: 3%;
+  max-width: 100%;
+}
+
+span {
+  word-wrap: break-word;
+  width: 100%;
 }
 
 .task {
   font-size: 21px;
+  width: 95%;
 }
 
 .single-task {
@@ -87,7 +94,7 @@ li {
 }
 
 .checkbox {
-  transform: scale(1.5);
+  /*transform: scale(1.5);*/
   margin: 0 2% 0 1%;
   background: #d9d8d5;
 }
